@@ -94,6 +94,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ex10.aspx" />
+    <Content Include="ex11.aspx" />
+    <Content Include="ex6.aspx" />
+    <Content Include="ex7.aspx" />
+    <Content Include="ex8.aspx" />
+    <Content Include="ex9.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,6 +119,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ex10.aspx.cs">
+      <DependentUpon>ex10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex10.aspx.designer.cs">
+      <DependentUpon>ex10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex11.aspx.cs">
+      <DependentUpon>ex11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex11.aspx.designer.cs">
+      <DependentUpon>ex11.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ex4.aspx.cs">
       <DependentUpon>ex4.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -126,6 +146,34 @@
     </Compile>
     <Compile Include="ex5.aspx.designer.cs">
       <DependentUpon>ex5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex6.aspx.cs">
+      <DependentUpon>ex6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex6.aspx.designer.cs">
+      <DependentUpon>ex6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex7.aspx.cs">
+      <DependentUpon>ex7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex7.aspx.designer.cs">
+      <DependentUpon>ex7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex8.aspx.cs">
+      <DependentUpon>ex8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex8.aspx.designer.cs">
+      <DependentUpon>ex8.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex9.aspx.cs">
+      <DependentUpon>ex9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex9.aspx.designer.cs">
+      <DependentUpon>ex9.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

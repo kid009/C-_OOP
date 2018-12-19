@@ -10,7 +10,7 @@
 namespace ADO_DEMO {
     
     
-    public partial class ex10 {
+    public partial class ex11 {
         
         /// <summary>
         /// form1 control.
@@ -22,12 +22,21 @@ namespace ADO_DEMO {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// GridView control.
+        /// ProductGridView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView;
+        protected global::System.Web.UI.WebControls.GridView ProductGridView;
+        
+        /// <summary>
+        /// CategoryGridView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView CategoryGridView;
     }
 }
