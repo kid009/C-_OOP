@@ -96,6 +96,8 @@
   <ItemGroup>
     <Content Include="ex10.aspx" />
     <Content Include="ex11.aspx" />
+    <Content Include="ex12.aspx" />
+    <Content Include="ex13.aspx" />
     <Content Include="ex6.aspx" />
     <Content Include="ex7.aspx" />
     <Content Include="ex8.aspx" />
@@ -132,6 +134,20 @@
     </Compile>
     <Compile Include="ex11.aspx.designer.cs">
       <DependentUpon>ex11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex12.aspx.cs">
+      <DependentUpon>ex12.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex12.aspx.designer.cs">
+      <DependentUpon>ex12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ex13.aspx.cs">
+      <DependentUpon>ex13.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ex13.aspx.designer.cs">
+      <DependentUpon>ex13.aspx</DependentUpon>
     </Compile>
     <Compile Include="ex4.aspx.cs">
       <DependentUpon>ex4.aspx</DependentUpon>
